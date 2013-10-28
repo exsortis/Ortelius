@@ -42,6 +42,14 @@
 		5B0852F0181DE4C500AE4BEA /* ORTTestDestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B08529B181D9DCB00AE4BEA /* ORTTestDestObject.m */; };
 		5B0852F1181DE4C500AE4BEA /* ORTTestOtherObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0852A8181DDFBA00AE4BEA /* ORTTestOtherObject.m */; };
 		5B0852F2181DE4C500AE4BEA /* ORTTestSourceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B085298181D9DBB00AE4BEA /* ORTTestSourceObject.m */; };
+		5B0852F4181DE76200AE4BEA /* ORTErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B08529E181DC6A300AE4BEA /* ORTErrors.m */; };
+		5B0852F5181DE76200AE4BEA /* ORTObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B085282181D842300AE4BEA /* ORTObjectMapper.m */; };
+		5B0852F6181DE76200AE4BEA /* ORTObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B085286181D84A100AE4BEA /* ORTObjectMapping.m */; };
+		5B0852F7181DE76200AE4BEA /* ORTObjectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B085290181D907300AE4BEA /* ORTObjectUtils.m */; };
+		5B0852F8181DE76200AE4BEA /* ORTPropertyAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B085294181D9D5C00AE4BEA /* ORTPropertyAttributes.m */; };
+		5B0852F9181DE76200AE4BEA /* ORTPropertyMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B08528A181D858F00AE4BEA /* ORTPropertyMapping.m */; };
+		5B0852FA181DE76200AE4BEA /* ORTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0852A2181DC8A800AE4BEA /* ORTConstants.m */; };
+		5B0852FB181DE76D00AE4BEA /* ORTMappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B085270181D838C00AE4BEA /* ORTMappingTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -450,6 +458,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B0852F7181DE76200AE4BEA /* ORTObjectUtils.m in Sources */,
+				5B0852F8181DE76200AE4BEA /* ORTPropertyAttributes.m in Sources */,
+				5B0852F4181DE76200AE4BEA /* ORTErrors.m in Sources */,
+				5B0852F9181DE76200AE4BEA /* ORTPropertyMapping.m in Sources */,
+				5B0852F6181DE76200AE4BEA /* ORTObjectMapping.m in Sources */,
+				5B0852FA181DE76200AE4BEA /* ORTConstants.m in Sources */,
+				5B0852F5181DE76200AE4BEA /* ORTObjectMapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +475,7 @@
 				5B0852F0181DE4C500AE4BEA /* ORTTestDestObject.m in Sources */,
 				5B0852F2181DE4C500AE4BEA /* ORTTestSourceObject.m in Sources */,
 				5B0852F1181DE4C500AE4BEA /* ORTTestOtherObject.m in Sources */,
+				5B0852FB181DE76D00AE4BEA /* ORTMappingTests.m in Sources */,
 				5B0852EF181DE4C500AE4BEA /* ORTObjectUtilsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
