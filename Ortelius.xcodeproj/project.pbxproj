@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B085250181D838C00AE4BEA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B08524F181D838C00AE4BEA /* Cocoa.framework */; };
+		5B085265181D838C00AE4BEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B085264181D838C00AE4BEA /* XCTest.framework */; };
+		5B085266181D838C00AE4BEA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B08524F181D838C00AE4BEA /* Cocoa.framework */; };
+		5B085269181D838C00AE4BEA /* Ortelius.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B08524C181D838C00AE4BEA /* Ortelius.framework */; };
+		5B08526F181D838C00AE4BEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B08526D181D838C00AE4BEA /* InfoPlist.strings */; };
+		5B085271181D838C00AE4BEA /* ORTMappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B085270181D838C00AE4BEA /* ORTMappingTests.m */; };
+		5B08527F181D840D00AE4BEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B08527B181D840D00AE4BEA /* InfoPlist.strings */; };
+		5B085280181D840D00AE4BEA /* Ortelius-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B08527D181D840D00AE4BEA /* Ortelius-Info.plist */; };
+		5B085283181D842300AE4BEA /* ORTObjectMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B085281181D842300AE4BEA /* ORTObjectMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B085284181D842300AE4BEA /* ORTObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B085282181D842300AE4BEA /* ORTObjectMapper.m */; };
+		5B085287181D84A100AE4BEA /* ORTObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B085285181D84A100AE4BEA /* ORTObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B085288181D84A100AE4BEA /* ORTObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B085286181D84A100AE4BEA /* ORTObjectMapping.m */; };
+		5B08528B181D858F00AE4BEA /* ORTPropertyMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B085289181D858F00AE4BEA /* ORTPropertyMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B08528C181D858F00AE4BEA /* ORTPropertyMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B08528A181D858F00AE4BEA /* ORTPropertyMapping.m */; };
+		5B08528E181D8B8C00AE4BEA /* ORTPropertyValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B08528D181D8B8C00AE4BEA /* ORTPropertyValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B085291181D907300AE4BEA /* ORTObjectUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B08528F181D907300AE4BEA /* ORTObjectUtils.h */; };
+		5B085292181D907300AE4BEA /* ORTObjectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B085290181D907300AE4BEA /* ORTObjectUtils.m */; };
+		5B085295181D9D5C00AE4BEA /* ORTPropertyAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B085293181D9D5C00AE4BEA /* ORTPropertyAttributes.h */; };
+		5B085296181D9D5C00AE4BEA /* ORTPropertyAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B085294181D9D5C00AE4BEA /* ORTPropertyAttributes.m */; };
+		5B085299181D9DBB00AE4BEA /* ORTTestSourceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B085298181D9DBB00AE4BEA /* ORTTestSourceObject.m */; };
+		5B08529C181D9DCB00AE4BEA /* ORTTestDestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B08529B181D9DCB00AE4BEA /* ORTTestDestObject.m */; };
+		5B08529F181DC6A300AE4BEA /* ORTErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B08529D181DC6A300AE4BEA /* ORTErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B0852A0181DC6A300AE4BEA /* ORTErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B08529E181DC6A300AE4BEA /* ORTErrors.m */; };
+		5B0852A3181DC8A800AE4BEA /* ORTConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0852A1181DC8A800AE4BEA /* ORTConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B0852A4181DC8A800AE4BEA /* ORTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0852A2181DC8A800AE4BEA /* ORTConstants.m */; };
+		5B0852A6181DCCF200AE4BEA /* ORTObjectUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0852A5181DCCF200AE4BEA /* ORTObjectUtilsTests.m */; };
+		5B0852A9181DDFBA00AE4BEA /* ORTTestOtherObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0852A8181DDFBA00AE4BEA /* ORTTestOtherObject.m */; };
+		5B0852B0181DE41B00AE4BEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0852AF181DE41B00AE4BEA /* Foundation.framework */; };
+		5B0852DE181DE4B500AE4BEA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B085264181D838C00AE4BEA /* XCTest.framework */; };
+		5B0852DF181DE4B500AE4BEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0852AF181DE41B00AE4BEA /* Foundation.framework */; };
+		5B0852E0181DE4B500AE4BEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0852BF181DE41C00AE4BEA /* UIKit.framework */; };
+		5B0852EF181DE4C500AE4BEA /* ORTObjectUtilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0852A5181DCCF200AE4BEA /* ORTObjectUtilsTests.m */; };
+		5B0852F0181DE4C500AE4BEA /* ORTTestDestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B08529B181D9DCB00AE4BEA /* ORTTestDestObject.m */; };
+		5B0852F1181DE4C500AE4BEA /* ORTTestOtherObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0852A8181DDFBA00AE4BEA /* ORTTestOtherObject.m */; };
+		5B0852F2181DE4C500AE4BEA /* ORTTestSourceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B085298181D9DBB00AE4BEA /* ORTTestSourceObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B085267181D838C00AE4BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B085243181D838C00AE4BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B08524B181D838C00AE4BEA;
+			remoteInfo = Ortelius;
+		};
+		5B0852EA181DE4B500AE4BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B085243181D838C00AE4BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B0852AD181DE41B00AE4BEA;
+			remoteInfo = "Ortelius-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B0852AC181DE41B00AE4BEA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5B08524C181D838C00AE4BEA /* Ortelius.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ortelius.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B08524F181D838C00AE4BEA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5B085252181D838C00AE4BEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B085253181D838C00AE4BEA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5B085254181D838C00AE4BEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5B085263181D838C00AE4BEA /* OrteliusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrteliusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B085264181D838C00AE4BEA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5B08526C181D838C00AE4BEA /* OrteliusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrteliusTests-Info.plist"; sourceTree = "<group>"; };
+		5B08526E181D838C00AE4BEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B085270181D838C00AE4BEA /* ORTMappingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORTMappingTests.m; sourceTree = "<group>"; };
+		5B08527C181D840D00AE4BEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B08527D181D840D00AE4BEA /* Ortelius-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Ortelius-Info.plist"; sourceTree = "<group>"; };
+		5B085281181D842300AE4BEA /* ORTObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTObjectMapper.h; sourceTree = "<group>"; };
+		5B085282181D842300AE4BEA /* ORTObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTObjectMapper.m; sourceTree = "<group>"; };
+		5B085285181D84A100AE4BEA /* ORTObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTObjectMapping.h; sourceTree = "<group>"; };
+		5B085286181D84A100AE4BEA /* ORTObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTObjectMapping.m; sourceTree = "<group>"; };
+		5B085289181D858F00AE4BEA /* ORTPropertyMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTPropertyMapping.h; sourceTree = "<group>"; };
+		5B08528A181D858F00AE4BEA /* ORTPropertyMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTPropertyMapping.m; sourceTree = "<group>"; };
+		5B08528D181D8B8C00AE4BEA /* ORTPropertyValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTPropertyValueTransformer.h; sourceTree = "<group>"; };
+		5B08528F181D907300AE4BEA /* ORTObjectUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTObjectUtils.h; sourceTree = "<group>"; };
+		5B085290181D907300AE4BEA /* ORTObjectUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTObjectUtils.m; sourceTree = "<group>"; };
+		5B085293181D9D5C00AE4BEA /* ORTPropertyAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTPropertyAttributes.h; sourceTree = "<group>"; };
+		5B085294181D9D5C00AE4BEA /* ORTPropertyAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTPropertyAttributes.m; sourceTree = "<group>"; };
+		5B085297181D9DBB00AE4BEA /* ORTTestSourceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTTestSourceObject.h; sourceTree = "<group>"; };
+		5B085298181D9DBB00AE4BEA /* ORTTestSourceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTTestSourceObject.m; sourceTree = "<group>"; };
+		5B08529A181D9DCB00AE4BEA /* ORTTestDestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTTestDestObject.h; sourceTree = "<group>"; };
+		5B08529B181D9DCB00AE4BEA /* ORTTestDestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTTestDestObject.m; sourceTree = "<group>"; };
+		5B08529D181DC6A300AE4BEA /* ORTErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTErrors.h; sourceTree = "<group>"; };
+		5B08529E181DC6A300AE4BEA /* ORTErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTErrors.m; sourceTree = "<group>"; };
+		5B0852A1181DC8A800AE4BEA /* ORTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTConstants.h; sourceTree = "<group>"; };
+		5B0852A2181DC8A800AE4BEA /* ORTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTConstants.m; sourceTree = "<group>"; };
+		5B0852A5181DCCF200AE4BEA /* ORTObjectUtilsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTObjectUtilsTests.m; sourceTree = "<group>"; };
+		5B0852A7181DDFBA00AE4BEA /* ORTTestOtherObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORTTestOtherObject.h; sourceTree = "<group>"; };
+		5B0852A8181DDFBA00AE4BEA /* ORTTestOtherObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORTTestOtherObject.m; sourceTree = "<group>"; };
+		5B0852AE181DE41B00AE4BEA /* libOrtelius-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libOrtelius-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B0852AF181DE41B00AE4BEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B0852BF181DE41C00AE4BEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B0852DD181DE4B500AE4BEA /* Ortelius-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ortelius-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B085248181D838C00AE4BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B085250181D838C00AE4BEA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B085260181D838C00AE4BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B085266181D838C00AE4BEA /* Cocoa.framework in Frameworks */,
+				5B085265181D838C00AE4BEA /* XCTest.framework in Frameworks */,
+				5B085269181D838C00AE4BEA /* Ortelius.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0852AB181DE41B00AE4BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0852B0181DE41B00AE4BEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0852DA181DE4B500AE4BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0852DE181DE4B500AE4BEA /* XCTest.framework in Frameworks */,
+				5B0852E0181DE4B500AE4BEA /* UIKit.framework in Frameworks */,
+				5B0852DF181DE4B500AE4BEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B085242181D838C00AE4BEA = {
+			isa = PBXGroup;
+			children = (
+				5B085255181D838C00AE4BEA /* Ortelius */,
+				5B08526A181D838C00AE4BEA /* OrteliusTests */,
+				5B08524E181D838C00AE4BEA /* Frameworks */,
+				5B08524D181D838C00AE4BEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B08524D181D838C00AE4BEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B08524C181D838C00AE4BEA /* Ortelius.framework */,
+				5B085263181D838C00AE4BEA /* OrteliusTests.xctest */,
+				5B0852AE181DE41B00AE4BEA /* libOrtelius-iOS.a */,
+				5B0852DD181DE4B500AE4BEA /* Ortelius-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B08524E181D838C00AE4BEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B08524F181D838C00AE4BEA /* Cocoa.framework */,
+				5B085264181D838C00AE4BEA /* XCTest.framework */,
+				5B0852AF181DE41B00AE4BEA /* Foundation.framework */,
+				5B0852BF181DE41C00AE4BEA /* UIKit.framework */,
+				5B085251181D838C00AE4BEA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B085251181D838C00AE4BEA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B085252181D838C00AE4BEA /* Foundation.framework */,
+				5B085253181D838C00AE4BEA /* CoreData.framework */,
+				5B085254181D838C00AE4BEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5B085255181D838C00AE4BEA /* Ortelius */ = {
+			isa = PBXGroup;
+			children = (
+				5B08527A181D840D00AE4BEA /* Resources */,
+				5B08527E181D840D00AE4BEA /* Source */,
+			);
+			path = Ortelius;
+			sourceTree = "<group>";
+		};
+		5B08526A181D838C00AE4BEA /* OrteliusTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B085270181D838C00AE4BEA /* ORTMappingTests.m */,
+				5B0852A5181DCCF200AE4BEA /* ORTObjectUtilsTests.m */,
+				5B08529A181D9DCB00AE4BEA /* ORTTestDestObject.h */,
+				5B08529B181D9DCB00AE4BEA /* ORTTestDestObject.m */,
+				5B0852A7181DDFBA00AE4BEA /* ORTTestOtherObject.h */,
+				5B0852A8181DDFBA00AE4BEA /* ORTTestOtherObject.m */,
+				5B085297181D9DBB00AE4BEA /* ORTTestSourceObject.h */,
+				5B085298181D9DBB00AE4BEA /* ORTTestSourceObject.m */,
+				5B08526B181D838C00AE4BEA /* Supporting Files */,
+			);
+			path = OrteliusTests;
+			sourceTree = "<group>";
+		};
+		5B08526B181D838C00AE4BEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B08526C181D838C00AE4BEA /* OrteliusTests-Info.plist */,
+				5B08526D181D838C00AE4BEA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B08527A181D840D00AE4BEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B08527B181D840D00AE4BEA /* InfoPlist.strings */,
+				5B08527D181D840D00AE4BEA /* Ortelius-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5B08527E181D840D00AE4BEA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5B08529D181DC6A300AE4BEA /* ORTErrors.h */,
+				5B08529E181DC6A300AE4BEA /* ORTErrors.m */,
+				5B085281181D842300AE4BEA /* ORTObjectMapper.h */,
+				5B085282181D842300AE4BEA /* ORTObjectMapper.m */,
+				5B085285181D84A100AE4BEA /* ORTObjectMapping.h */,
+				5B085286181D84A100AE4BEA /* ORTObjectMapping.m */,
+				5B08528F181D907300AE4BEA /* ORTObjectUtils.h */,
+				5B085290181D907300AE4BEA /* ORTObjectUtils.m */,
+				5B085293181D9D5C00AE4BEA /* ORTPropertyAttributes.h */,
+				5B085294181D9D5C00AE4BEA /* ORTPropertyAttributes.m */,
+				5B085289181D858F00AE4BEA /* ORTPropertyMapping.h */,
+				5B08528A181D858F00AE4BEA /* ORTPropertyMapping.m */,
+				5B08528D181D8B8C00AE4BEA /* ORTPropertyValueTransformer.h */,
+				5B0852A1181DC8A800AE4BEA /* ORTConstants.h */,
+				5B0852A2181DC8A800AE4BEA /* ORTConstants.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B085249181D838C00AE4BEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B08529F181DC6A300AE4BEA /* ORTErrors.h in Headers */,
+				5B085295181D9D5C00AE4BEA /* ORTPropertyAttributes.h in Headers */,
+				5B085291181D907300AE4BEA /* ORTObjectUtils.h in Headers */,
+				5B085283181D842300AE4BEA /* ORTObjectMapper.h in Headers */,
+				5B08528E181D8B8C00AE4BEA /* ORTPropertyValueTransformer.h in Headers */,
+				5B08528B181D858F00AE4BEA /* ORTPropertyMapping.h in Headers */,
+				5B0852A3181DC8A800AE4BEA /* ORTConstants.h in Headers */,
+				5B085287181D84A100AE4BEA /* ORTObjectMapping.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B08524B181D838C00AE4BEA /* Ortelius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B085274181D838C00AE4BEA /* Build configuration list for PBXNativeTarget "Ortelius" */;
+			buildPhases = (
+				5B085247181D838C00AE4BEA /* Sources */,
+				5B085248181D838C00AE4BEA /* Frameworks */,
+				5B085249181D838C00AE4BEA /* Headers */,
+				5B08524A181D838C00AE4BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ortelius;
+			productName = Ortelius;
+			productReference = 5B08524C181D838C00AE4BEA /* Ortelius.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B085262181D838C00AE4BEA /* OrteliusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B085277181D838C00AE4BEA /* Build configuration list for PBXNativeTarget "OrteliusTests" */;
+			buildPhases = (
+				5B08525F181D838C00AE4BEA /* Sources */,
+				5B085260181D838C00AE4BEA /* Frameworks */,
+				5B085261181D838C00AE4BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B085268181D838C00AE4BEA /* PBXTargetDependency */,
+			);
+			name = OrteliusTests;
+			productName = OrteliusTests;
+			productReference = 5B085263181D838C00AE4BEA /* OrteliusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B0852AD181DE41B00AE4BEA /* Ortelius-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0852CC181DE41C00AE4BEA /* Build configuration list for PBXNativeTarget "Ortelius-iOS" */;
+			buildPhases = (
+				5B0852AA181DE41B00AE4BEA /* Sources */,
+				5B0852AB181DE41B00AE4BEA /* Frameworks */,
+				5B0852AC181DE41B00AE4BEA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ortelius-iOS";
+			productName = "Ortelius-iOS";
+			productReference = 5B0852AE181DE41B00AE4BEA /* libOrtelius-iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B0852DC181DE4B500AE4BEA /* Ortelius-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B0852EC181DE4B500AE4BEA /* Build configuration list for PBXNativeTarget "Ortelius-iOSTests" */;
+			buildPhases = (
+				5B0852D9181DE4B500AE4BEA /* Sources */,
+				5B0852DA181DE4B500AE4BEA /* Frameworks */,
+				5B0852DB181DE4B500AE4BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B0852EB181DE4B500AE4BEA /* PBXTargetDependency */,
+			);
+			name = "Ortelius-iOSTests";
+			productName = "Ortelius-iOSTests";
+			productReference = 5B0852DD181DE4B500AE4BEA /* Ortelius-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B085243181D838C00AE4BEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ORT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Pilgrimage Software";
+				TargetAttributes = {
+					5B085262181D838C00AE4BEA = {
+						TestTargetID = 5B08524B181D838C00AE4BEA;
+					};
+					5B0852DC181DE4B500AE4BEA = {
+						TestTargetID = 5B0852AD181DE41B00AE4BEA;
+					};
+				};
+			};
+			buildConfigurationList = 5B085246181D838C00AE4BEA /* Build configuration list for PBXProject "Ortelius" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B085242181D838C00AE4BEA;
+			productRefGroup = 5B08524D181D838C00AE4BEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B08524B181D838C00AE4BEA /* Ortelius */,
+				5B085262181D838C00AE4BEA /* OrteliusTests */,
+				5B0852AD181DE41B00AE4BEA /* Ortelius-iOS */,
+				5B0852DC181DE4B500AE4BEA /* Ortelius-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B08524A181D838C00AE4BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B08527F181D840D00AE4BEA /* InfoPlist.strings in Resources */,
+				5B085280181D840D00AE4BEA /* Ortelius-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B085261181D838C00AE4BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B08526F181D838C00AE4BEA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0852DB181DE4B500AE4BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B085247181D838C00AE4BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B085292181D907300AE4BEA /* ORTObjectUtils.m in Sources */,
+				5B085296181D9D5C00AE4BEA /* ORTPropertyAttributes.m in Sources */,
+				5B085288181D84A100AE4BEA /* ORTObjectMapping.m in Sources */,
+				5B085284181D842300AE4BEA /* ORTObjectMapper.m in Sources */,
+				5B0852A0181DC6A300AE4BEA /* ORTErrors.m in Sources */,
+				5B0852A4181DC8A800AE4BEA /* ORTConstants.m in Sources */,
+				5B08528C181D858F00AE4BEA /* ORTPropertyMapping.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B08525F181D838C00AE4BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0852A6181DCCF200AE4BEA /* ORTObjectUtilsTests.m in Sources */,
+				5B085271181D838C00AE4BEA /* ORTMappingTests.m in Sources */,
+				5B0852A9181DDFBA00AE4BEA /* ORTTestOtherObject.m in Sources */,
+				5B085299181D9DBB00AE4BEA /* ORTTestSourceObject.m in Sources */,
+				5B08529C181D9DCB00AE4BEA /* ORTTestDestObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0852AA181DE41B00AE4BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0852D9181DE4B500AE4BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B0852F0181DE4C500AE4BEA /* ORTTestDestObject.m in Sources */,
+				5B0852F2181DE4C500AE4BEA /* ORTTestSourceObject.m in Sources */,
+				5B0852F1181DE4C500AE4BEA /* ORTTestOtherObject.m in Sources */,
+				5B0852EF181DE4C500AE4BEA /* ORTObjectUtilsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B085268181D838C00AE4BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B08524B181D838C00AE4BEA /* Ortelius */;
+			targetProxy = 5B085267181D838C00AE4BEA /* PBXContainerItemProxy */;
+		};
+		5B0852EB181DE4B500AE4BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B0852AD181DE41B00AE4BEA /* Ortelius-iOS */;
+			targetProxy = 5B0852EA181DE4B500AE4BEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B08526D181D838C00AE4BEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B08526E181D838C00AE4BEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B08527B181D840D00AE4BEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B08527C181D840D00AE4BEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B085272181D838C00AE4BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5B085273181D838C00AE4BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5B085275181D838C00AE4BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Ortelius/Resources/Ortelius-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		5B085276181D838C00AE4BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "Ortelius/Resources/Ortelius-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		5B085278181D838C00AE4BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ortelius.framework/Versions/A/Ortelius";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OrteliusTests/OrteliusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5B085279181D838C00AE4BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ortelius.framework/Versions/A/Ortelius";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "OrteliusTests/OrteliusTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		5B0852CD181DE41C00AE4BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				DSTROOT = /tmp/Ortelius_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5B0852CE181DE41C00AE4BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				DSTROOT = /tmp/Ortelius_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B0852ED181DE4B500AE4BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OrteliusTests/OrteliusTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5B0852EE181DE4B500AE4BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "OrteliusTests/OrteliusTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B085246181D838C00AE4BEA /* Build configuration list for PBXProject "Ortelius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B085272181D838C00AE4BEA /* Debug */,
+				5B085273181D838C00AE4BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B085274181D838C00AE4BEA /* Build configuration list for PBXNativeTarget "Ortelius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B085275181D838C00AE4BEA /* Debug */,
+				5B085276181D838C00AE4BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B085277181D838C00AE4BEA /* Build configuration list for PBXNativeTarget "OrteliusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B085278181D838C00AE4BEA /* Debug */,
+				5B085279181D838C00AE4BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B0852CC181DE41C00AE4BEA /* Build configuration list for PBXNativeTarget "Ortelius-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0852CD181DE41C00AE4BEA /* Debug */,
+				5B0852CE181DE41C00AE4BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B0852EC181DE4B500AE4BEA /* Build configuration list for PBXNativeTarget "Ortelius-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0852ED181DE4B500AE4BEA /* Debug */,
+				5B0852EE181DE4B500AE4BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B085243181D838C00AE4BEA /* Project object */;
+}
