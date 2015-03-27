@@ -51,6 +51,7 @@
 		5B0852FA181DE76200AE4BEA /* ORTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0852A2181DC8A800AE4BEA /* ORTConstants.m */; };
 		5B0852FB181DE76D00AE4BEA /* ORTMappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B085270181D838C00AE4BEA /* ORTMappingTests.m */; };
 		5B12FAD51AC5C1B200777553 /* libOrtelius-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0852AE181DE41B00AE4BEA /* libOrtelius-iOS.a */; };
+		5B3A299D1AC5E36300BA4754 /* Ortelius.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B3A299C1AC5E2E400BA4754 /* Ortelius.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -106,6 +107,7 @@
 		5B0852DD181DE4B500AE4BEA /* Ortelius-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ortelius-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B12FAD31AC5B04800777553 /* Ortelius.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Ortelius.podspec; sourceTree = "<group>"; };
 		5B12FAD41AC5B2DD00777553 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5B3A299C1AC5E2E400BA4754 /* Ortelius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ortelius.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,9 @@
 		5B08527E181D840D00AE4BEA /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				5B3A299C1AC5E2E400BA4754 /* Ortelius.h */,
+				5B0852A1181DC8A800AE4BEA /* ORTConstants.h */,
+				5B0852A2181DC8A800AE4BEA /* ORTConstants.m */,
 				5B08529D181DC6A300AE4BEA /* ORTErrors.h */,
 				5B08529E181DC6A300AE4BEA /* ORTErrors.m */,
 				5B085281181D842300AE4BEA /* ORTObjectMapper.h */,
@@ -253,8 +258,6 @@
 				5B085289181D858F00AE4BEA /* ORTPropertyMapping.h */,
 				5B08528A181D858F00AE4BEA /* ORTPropertyMapping.m */,
 				5B08528D181D8B8C00AE4BEA /* ORTPropertyValueTransformer.h */,
-				5B0852A1181DC8A800AE4BEA /* ORTConstants.h */,
-				5B0852A2181DC8A800AE4BEA /* ORTConstants.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				5B08529F181DC6A300AE4BEA /* ORTErrors.h in Headers */,
 				5B085295181D9D5C00AE4BEA /* ORTPropertyAttributes.h in Headers */,
+				5B3A299D1AC5E36300BA4754 /* Ortelius.h in Headers */,
 				5B085291181D907300AE4BEA /* ORTObjectUtils.h in Headers */,
 				5B085283181D842300AE4BEA /* ORTObjectMapper.h in Headers */,
 				5B08528E181D8B8C00AE4BEA /* ORTPropertyValueTransformer.h in Headers */,
