@@ -1,6 +1,6 @@
 # Ortelius
 
-1.0.3
+1.0.4
 
 Objective-C object mapping framework
 
