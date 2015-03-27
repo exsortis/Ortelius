@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Ortelius"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Object mapping library in Objective-C"
 
   s.description  = <<-DESC
@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   s.author             = { "Paul Schifferer" => "paul@schifferers.net" }
   # Or just: s.author    = "Paul Schifferer"
   # s.authors            = { "Paul Schifferer" => "paul@schifferers.net" }
-  # s.social_media_url   = "http://twitter.com/Paul Schifferer"
+  s.social_media_url   = "https://alpha.app.net/pilgrim"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
-  #s.ios.deployment_target = "7.0"
+  s.ios.deployment_target = "8.2"
   s.osx.deployment_target = "10.9"
 
 
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/exsortis/Ortelius.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/exsortis/Ortelius.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

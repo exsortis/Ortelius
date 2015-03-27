@@ -120,6 +120,8 @@
 		5B0852AF181DE41B00AE4BEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B0852BF181DE41C00AE4BEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		5B0852DD181DE4B500AE4BEA /* Ortelius-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ortelius-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B12FAD31AC5B04800777553 /* Ortelius.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Ortelius.podspec; sourceTree = "<group>"; };
+		5B12FAD41AC5B2DD00777553 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,8 @@
 		5B085242181D838C00AE4BEA = {
 			isa = PBXGroup;
 			children = (
+				5B12FAD41AC5B2DD00777553 /* README.md */,
+				5B12FAD31AC5B04800777553 /* Ortelius.podspec */,
 				5B085255181D838C00AE4BEA /* Ortelius */,
 				5B08526A181D838C00AE4BEA /* OrteliusTests */,
 				5B08524E181D838C00AE4BEA /* Frameworks */,
@@ -754,6 +758,7 @@
 				5B085276181D838C00AE4BEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B085277181D838C00AE4BEA /* Build configuration list for PBXNativeTarget "OrteliusTests" */ = {
 			isa = XCConfigurationList;
@@ -762,6 +767,7 @@
 				5B085279181D838C00AE4BEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B0852CC181DE41C00AE4BEA /* Build configuration list for PBXNativeTarget "Ortelius-iOS" */ = {
 			isa = XCConfigurationList;
@@ -770,6 +776,7 @@
 				5B0852CE181DE41C00AE4BEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B0852EC181DE4B500AE4BEA /* Build configuration list for PBXNativeTarget "Ortelius-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -778,6 +785,7 @@
 				5B0852EE181DE4B500AE4BEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
