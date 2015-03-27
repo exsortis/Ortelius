@@ -1,12 +1,12 @@
 # Ortelius
 
-1.0.2
+1.0.3
 
 Objective-C object mapping framework
 
-## Build Status
-
 [![Build Status](https://travis-ci.org/exsortis/Ortelius.svg)](https://travis-ci.org/exsortis/Ortelius)
+[![Version](https://cocoapod-badges.herokuapp.com/v/Ortelius/badge.png)](http://cocoadocs.org/docsets/Ortelius)
+[![Platform](https://cocoapod-badges.herokuapp.com/p/Ortelius/badge.png)](http://cocoadocs.org/docsets/Ortelius)
 
 ## How to Use
 
