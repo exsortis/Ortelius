@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5B0852BB181DE41B00AE4BEA"
+               BlueprintIdentifier = "5B0852DC181DE4B500AE4BEA"
                BuildableName = "Ortelius-iOSTests.xctest"
                BlueprintName = "Ortelius-iOSTests"
                ReferencedContainer = "container:Ortelius.xcodeproj">
@@ -49,6 +49,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5B0852AD181DE41B00AE4BEA"
+            BuildableName = "libOrtelius-iOS.a"
+            BlueprintName = "Ortelius-iOS"
+            ReferencedContainer = "container:Ortelius.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
